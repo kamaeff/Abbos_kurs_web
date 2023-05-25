@@ -1,0 +1,78 @@
+.main_text {
+    width: 1000px;
+    display: grid;
+    justify-content: center;
+    
+}
+.main_text-tittle {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto slab', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.main_text-subtitle {
+    width: 800px;
+    font-family: 'Roboto slab', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.main_cards {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.main_cards-container {
+    display:grid;
+    grid-template-columns: repeat(2, 350px);
+    gap: 30px;   
+}
+.cards_container-item {
+    width: 360px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 20px;
+}
+
+.container_item-img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container_item-text {
+    width: 350px;
+    margin-top: 20px;
+    font-family: 'Roboto slab', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.container_item-btns {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 10px;
+}
+.item_btns-view,
+.item_btns-edit {
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-family: 'Roboto slab', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 10px;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 20px;
+
+}
+
+.item_btns-view:hover,
+.item_btns-edit:hover{
+    background-color: black;
+    color: white;
+}
